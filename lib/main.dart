@@ -83,7 +83,7 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  Widget Cardtab({Color? color, String? name}) {
+  Widget Cardtab({required Color color, required String name}) {
     return Card(
       color: color,
       child: Center(
