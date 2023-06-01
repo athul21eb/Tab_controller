@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
                 Tab(
                     icon: Icon(
                       Icons.person,
-                      color: Colors.deepOrange,
+                      color: Colors.cyan,
                     ),
                     text: 'Profile'),
               ],
@@ -73,7 +73,7 @@ class MyApp extends StatelessWidget {
                 name: "Cart",
               ),
               Cardtab(
-                color: Colors.orange,
+                color: Colors.cyan,
                 name: "Profile",
               ),
             ],
