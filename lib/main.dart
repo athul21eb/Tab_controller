@@ -56,23 +56,23 @@ class MyApp extends StatelessWidget {
           ),
           body: TabBarView(
             children: <Widget>[
-              Cardtab(
+              cards(
                 color: Colors.green,
                 name: "Home",
               ),
-              Cardtab(
+              cards(
                 color: Colors.yellow,
                 name: "Search",
               ),
-              Cardtab(
+              cards(
                 color: Colors.pink,
                 name: "Favorite",
               ),
-              Cardtab(
+              cards(
                 color: Colors.white,
                 name: "Cart",
               ),
-              Cardtab(
+              cards(
                 color: Colors.cyan,
                 name: "Profile",
               ),
@@ -83,12 +83,12 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  Widget Cardtab({required Color color, required String name}) {
+  Widget cards({required Color color, required String name}) {
     return Card(
       color: color,
       child: Center(
           child: Text(
-        "$name",
+        name,
         style: const TextStyle(
           color: Colors.black,
           fontSize: 30,
